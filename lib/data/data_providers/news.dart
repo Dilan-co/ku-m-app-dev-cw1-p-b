@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:global_news_app/data/data_providers/models/news_model.dart';
+import 'package:global_news_app/data/models/news_model.dart';
 import 'package:global_news_app/data/services/database_service.dart';
 import 'package:sqflite/sqflite.dart';
 

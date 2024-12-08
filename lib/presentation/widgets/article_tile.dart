@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:global_news_app/data/data_providers/data_providers/news.dart';
-import 'package:global_news_app/data/data_providers/models/news_model.dart';
+import 'package:global_news_app/data/data_providers/news.dart';
+import 'package:global_news_app/data/models/news_model.dart';
 import 'package:global_news_app/utils/constants/size.dart';
 import 'package:global_news_app/utils/constants/text_style.dart';
 import 'package:global_news_app/utils/constants/theme.dart';

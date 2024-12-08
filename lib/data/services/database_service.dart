@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:global_news_app/data/data_providers/data_providers/news_db.dart';
+import 'package:global_news_app/data/data_providers/news_db.dart';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 

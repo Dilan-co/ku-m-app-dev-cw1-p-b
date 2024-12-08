@@ -1,4 +1,4 @@
-import 'package:global_news_app/data/data_providers/data_providers/news.dart';
+import 'package:global_news_app/data/data_providers/news.dart';
 import 'package:sqflite/sqflite.dart';
 
 class NewsDB {

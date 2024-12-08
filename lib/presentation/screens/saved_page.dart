@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:global_news_app/controllers/state_controller.dart';
-import 'package:global_news_app/data/data_providers/data_providers/news.dart';
-import 'package:global_news_app/data/data_providers/models/news_model.dart';
+import 'package:global_news_app/data/data_providers/news.dart';
+import 'package:global_news_app/data/models/news_model.dart';
 import 'package:global_news_app/presentation/widgets/article_tile.dart';
 
 class SavedPage extends StatefulWidget {
