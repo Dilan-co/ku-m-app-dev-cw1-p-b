@@ -1,21 +1,23 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sqflite/sqflite.dart';
+import 'package:global_news_app/data/data_providers/models/news_model.dart';
 
 class StateController extends GetxController {
-  Database? _database;
   RxString externalStoragePath = "".obs;
   RxString documentsDirectoryPath = "".obs;
-  Future<bool>? loadingFuture;
 
-  setDatabase(Database db) {
-    _database = db;
-    debugPrint("========= Database Set =========");
-  }
+  RxList<NewsModel> savedNewsList = <NewsModel>[].obs;
 
-  getDatabase() {
-    return _database;
-  }
+  //API Key
+  String apiKey = "9b5cb5b59f9f4be6b477c6231d86b734";
+  //Base Url for API
+  String baseUrl = "https://newsapi.org/v2";
+
+  String? selectedMainCategory = "top-headlines";
+  String? selectedSubCategory;
+  String? selectedSource;
+  String? selectedCountry;
+  String? selectedCountryKey;
 
   setExternalStoragePath(String path) {
     externalStoragePath(path);
@@ -33,5 +35,13 @@ class StateController extends GetxController {
 
   getDocumentsDirectoryPath() {
     return documentsDirectoryPath();
+  }
+
+  setSavedNewsList(List<NewsModel> list) {
+    savedNewsList(list);
+  }
+
+  getSavedNewsList() {
+    return savedNewsList();
   }
 }

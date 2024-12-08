@@ -22,7 +22,7 @@ class CFGTextStyle {
   //Font Colors
   static Color defaultFontColor = CFGColor.black;
   static Color greyFontColor = CFGColor.darkGrey;
-  static Color lightGreyFontColor = CFGColor.midGrey;
+  static Color lightGreyFontColor = CFGColor.midDarkGrey;
   static Color whiteFontColor = CFGColor.white;
   static Color blueFontColor = CFGColor.blue;
   static Color redFontColor = CFGColor.red;
