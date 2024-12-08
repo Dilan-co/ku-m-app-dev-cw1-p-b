@@ -35,6 +35,8 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
+    //Initializing MediaQuery for padding
+    CFGSize().init(context);
     return Scaffold(
       backgroundColor: CFGTheme.bgColorScreen,
       body: Padding(

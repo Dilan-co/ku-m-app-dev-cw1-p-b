@@ -56,9 +56,6 @@ class _MainAppState extends State<MainApp> {
 
   @override
   Widget build(BuildContext context) {
-    //Initializing MediaQuery for padding
-    CFGSize().init(context);
-
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(

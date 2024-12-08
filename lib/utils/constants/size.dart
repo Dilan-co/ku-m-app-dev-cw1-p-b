@@ -7,7 +7,7 @@ class CFGSize {
   static double tileRadius = 15;
 
   void init(BuildContext context) {
-    bodyLRPadding = MediaQuery.of(context).size.width * 0.05;
+    bodyLRPadding = MediaQuery.of(context).size.width * 0.04;
     debugPrint('bodyLRPadding: $bodyLRPadding');
   }
 }
