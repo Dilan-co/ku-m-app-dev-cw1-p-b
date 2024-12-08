@@ -5,7 +5,6 @@ import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:global_news_app/controllers/state_controller.dart';
 import 'package:global_news_app/data/services/database_service.dart';
 import 'package:global_news_app/presentation/screens/home_page.dart';
-import 'package:global_news_app/utils/constants/size.dart';
 import 'package:global_news_app/utils/constants/theme.dart';
 import 'package:global_news_app/utils/helpers/local_storage_path.dart';
 
